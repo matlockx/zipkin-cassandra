@@ -45,4 +45,5 @@ Then you are ready to go.
 
 ### Zipkin Example
 
-I would suggest to try out the good activator template from Lev Khomich: https://github.com/levkhomich/activator-akka-tracing.
+I would suggest to try out the good activator template from Lev Khomich: 
+* levkhomich/activator-akka-tracing (https://github.com/levkhomich/activator-akka-tracing)
