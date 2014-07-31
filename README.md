@@ -13,7 +13,7 @@ Start Zipkin
 
 ### Config
 
-All you need to do is to run the deploy.sh and change some of the parameters at the top of the file. At least you should have a look at the IP for your boot2docker vm.
+All you need to do is to run the deploy.sh and change some of the parameters at the top of the file. At least you should have a look at the IP for your boot2docker vm (*DOCKER_DAEMON_HOST*).
 
 ### Run
 
