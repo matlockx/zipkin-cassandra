@@ -28,6 +28,10 @@ Remove running images before starting the new setup:
 > Beware: this will delete all stored samples in ZIPKIN
 
 
+
+
+
+
 ```bash
    export CLEANUP="y" && ./deploy.sh
 ```
