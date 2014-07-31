@@ -1,4 +1,4 @@
-Zipkin using Docker with boot2docker
+Zipkin using Docker (with boot2docker)
 ====================================
 
 There are actually two repos that have done the hard work here:
@@ -13,7 +13,7 @@ Start Zipkin
 
 ### Config
 
-All you need to do is to run the deploy.sh and change some of the parameters at the top of the file. At least you should have a look at the IP for your boot2docker vm (*DOCKER_DAEMON_HOST*).
+All you need to do is to run the deploy.sh and change some of the parameters at the top of the file. At least you should have a look at the IP for your boot2docker vm (*DOCKER_DAEMON_HOST*). When you're not running boot2docker set it to localhost or whatever IP the docker daemon is running on.
 
 ### Run
 
