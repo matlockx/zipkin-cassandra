@@ -19,19 +19,27 @@ All you need to do is to run the deploy.sh and change some of the parameters at 
 
 Simple start:
 
+```bash
    ./deploy.sh
+```
 
 Remove running images before starting the new setup:
 
 > Beware: this will delete all stored samples in ZIPKIN
 
+
+```bash
    export CLEANUP="y" && ./deploy.sh
+```
 
 ### Check
 
 Open your http://[HOST_ADDRESS]:8080 in your browser, e.g. http://192.168.59.103:8080/ You should see the zipkin page. It takes some time for zipkin-web to start. You can double check that by
 
+
+```bash
    docker logs zipkin-web
+```
 
 Then you are ready to go.
 
