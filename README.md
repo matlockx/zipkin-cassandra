@@ -34,7 +34,7 @@ Remove running images before starting the new setup:
 
 ### Check
 
-Open your http://[HOST_ADDRESS]:8080 in your browser, e.g. http://192.168.59.103:8080/ You should see the zipkin page. It takes some time for zipkin-web to start. You can double check that by
+Open your http://[HOST_ADDRESS]:8080 in your browser, e.g. http://192.168.59.103:8080/. You should see the zipkin page. It takes some time for zipkin-web to start. You can double check that by
 
 
 ```bash
