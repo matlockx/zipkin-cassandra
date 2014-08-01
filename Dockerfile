@@ -1,4 +1,5 @@
 FROM poklet/cassandra
+
 MAINTAINER m.joehren@gmail.com
 
 ADD install_schema.sh /root/
